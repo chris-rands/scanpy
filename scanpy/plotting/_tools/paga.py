@@ -1056,7 +1056,7 @@ def paga_path(
                 x_tick_labels.append(label)
     X = np.array(X)
     print(type(X))
-    X = np.array(X, dytpe=float)
+    X = np.array(X, dtype=float)
     print(type(X))
     if as_heatmap:
         img = ax.imshow(
